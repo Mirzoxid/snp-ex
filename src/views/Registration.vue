@@ -75,6 +75,7 @@
                   <h2 class="form-page__title">Sign up</h2>
                   <form
                     action="#"
+                    onsubmit="clickSignIn"
                     :class="{
                       'form-page__form': true,
                       'was-validated': checkValid,
@@ -336,6 +337,10 @@ export default class Registration extends Vue {
   };
 
   private clickSignIn() {
+    if (this.checkValid) {
+      this.$router.push("dashboard");
+    }
+
     this.checkValid = true;
   }
 }
