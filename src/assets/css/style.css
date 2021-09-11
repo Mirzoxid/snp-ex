@@ -1,30 +1,30 @@
 @font-face {
   font-family: Montserrat,sans-serif;
-  src: url(../../../../../../Documents/verstka-registration-development/fonts/montserrat-black-webfont.woff2) format("woff2"),url(../../../../../../Documents/verstka-registration-development/fonts/montserrat-black-webfont.woff) format("woff");
+  src: url('../fonts/montserrat-black-webfont.woff2') format("woff2"),url('../fonts/montserrat-black-webfont.woff') format("woff");
   font-weight: 900;
   font-style: normal
 }
 @font-face {
   font-family: Montserrat,sans-serif;
-  src: url(../../../../../../Documents/verstka-registration-development/fonts/montserrat-extrabold-webfont.woff2) format("woff2"),url(../../../../../../Documents/verstka-registration-development/fonts/montserrat-extrabold-webfont.woff) format("woff");
+  src: url('../fonts/montserrat-extrabold-webfont.woff2') format("woff2"),url('../fonts/montserrat-extrabold-webfont.woff') format("woff");
   font-weight: 800;
   font-style: normal
 }
 @font-face {
   font-family: Montserrat,sans-serif;
-  src: url(../../../../../../Documents/verstka-registration-development/fonts/montserrat-bold-webfont.woff2) format("woff2"),url(../../../../../../Documents/verstka-registration-development/fonts/montserrat-bold-webfont.woff) format("woff");
+  src: url('../fonts/montserrat-bold-webfont.woff2') format("woff2"),url('../fonts/montserrat-bold-webfont.woff') format("woff");
   font-weight: 700;
   font-style: normal
 }
 @font-face {
   font-family: Montserrat,sans-serif;
-  src: url(../../../../../../Documents/verstka-registration-development/fonts/montserrat-semibold-webfont.woff2) format("woff2"),url(../../../../../../Documents/verstka-registration-development/fonts/montserrat-semibold-webfont.woff) format("woff");
+  src: url('../fonts/montserrat-semibold-webfont.woff2') format("woff2"),url('../fonts/montserrat-semibold-webfont.woff') format("woff");
   font-weight: 600;
   font-style: normal
 }
 @font-face {
   font-family: Montserrat,sans-serif;
-  src: url(../../../../../../Documents/verstka-registration-development/fonts/montserrat-medium-webfont.woff2) format("woff2"),url(../../../../../../Documents/verstka-registration-development/fonts/montserrat-medium-webfont.woff) format("woff");
+  src: url('../fonts/montserrat-medium-webfont.woff2') format("woff2"),url('../fonts/montserrat-medium-webfont.woff') format("woff");
   font-weight: 500;
   font-style: normal
 }
@@ -872,14 +872,14 @@ textarea {
   -webkit-box-shadow: inset 0 0 0 1px #e10909;
   box-shadow: inset 0 0 0 1px #e10909;
   padding-right: 12px;
-  background-image: url(../../../../../../Documents/verstka-registration-development/images/src/icons/warning-red.svg);
+  background-image: url('../images/src/icons/warning-red.svg');
   background-position: right 12px center;
   background-repeat: no-repeat;
   background-size: 20px 20px
 }
 .form-page__form.was-validated .form-page__input:valid {
   padding-right: 12px;
-  background-image: url(../../../../../../Documents/verstka-registration-development/images/src/icons/success.svg);
+  background-image: url('../images/src/icons/success.svg');
   background-position: right 12px center;
   background-repeat: no-repeat;
   background-size: 20px 20px
@@ -888,14 +888,14 @@ textarea {
   -webkit-box-shadow: inset 0 0 0 1px #e10909;
   box-shadow: inset 0 0 0 1px #e10909;
   padding-right: 12px;
-  background-image: url(../../../../../../Documents/verstka-registration-development/images/src/icons/warning-red.svg);
+  background-image: url('../images/src/icons/warning-red.svg');
   background-position: right 12px center;
   background-repeat: no-repeat;
   background-size: 20px 20px
 }
 .form-page__form.was-validated .form-page__input-confirm:valid {
   padding-right: 12px;
-  background-image: url(../../../../../../Documents/verstka-registration-development/images/src/icons/success.svg);
+  background-image: url('../images/src/icons/success.svg');
   background-position: right 12px center;
   background-repeat: no-repeat;
   background-size: 20px 20px
@@ -904,7 +904,7 @@ textarea {
   -webkit-box-shadow: inset 0 0 0 1px #e10909;
   box-shadow: inset 0 0 0 1px #e10909;
   padding-right: 12px;
-  background-image: url(../../../../../../Documents/verstka-registration-development/images/src/icons/warning-red.svg);
+  background-image: url('../images/src/icons/warning-red.svg');
   background-position: right 12px center;
   background-repeat: no-repeat;
   background-size: 20px 20px
@@ -913,7 +913,7 @@ textarea {
   -webkit-box-shadow: inset 0 0 0 1px #b9cce0;
   box-shadow: inset 0 0 0 1px #b9cce0;
   padding-right: 12px;
-  background-image: url(../../../../../../Documents/verstka-registration-development/images/src/icons/success.svg);
+  background-image: url('../images/src/icons/success.svg');
   background-position: right 12px center;
   background-repeat: no-repeat;
   background-size: 20px 20px
@@ -3488,7 +3488,7 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-box-shadow: inset 0 0 0 1px #e10909;
   box-shadow: inset 0 0 0 1px #e10909;
   padding-right: 12px;
-  background-image: url(../../../../../../Documents/verstka-registration-development/images/src/icons/warning-red.svg);
+  background-image: url('../images/src/icons/warning-red.svg');
   background-position: right 12px center;
   background-repeat: no-repeat;
   background-size: 20px 20px
@@ -3497,7 +3497,7 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-box-shadow: inset 0 0 0 1px #b9cce0;
   box-shadow: inset 0 0 0 1px #b9cce0;
   padding-right: 12px;
-  background-image: url(../../../../../../Documents/verstka-registration-development/images/src/icons/success.svg);
+  background-image: url('../images/src/icons/success.svg');
   background-position: right 12px center;
   background-repeat: no-repeat;
   background-size: 20px 20px
